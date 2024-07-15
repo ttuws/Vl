@@ -1,0 +1,5 @@
+local player = game.Players.LocalPlayer
+        local playerGui = player:WaitForChild("PlayerGui")
+        local luxuryGui = playerGui:WaitForChild("Classic")
+        local bgFrame = luxuryGui:WaitForChild("BG")
+        bgFrame.Visible = true
